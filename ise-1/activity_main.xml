@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F4F6F9"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/txtHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Photo Rating App"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#222222"
+        android:layout_marginBottom="30dp" />
+
+
+    <Button
+        android:id="@+id/btnLaunchCamera"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:text="Launch Camera"
+        android:textSize="15sp"
+        android:layout_marginBottom="20dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="#E0E0E0"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="20dp" />
+
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="1"
+        android:layout_gravity="center"
+        android:progressTint="#2E7D32"
+        android:progressBackgroundTint="#CCCCCC"
+        android:layout_marginBottom="25dp" />
+
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:text="Submit Rating"
+        android:textSize="15sp"
+        android:layout_marginBottom="20dp" />
+
+
+    <TextView
+        android:id="@+id/txtMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="#444444" />
+</LinearLayout>
