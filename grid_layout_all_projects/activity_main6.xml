@@ -7,7 +7,7 @@
     android:stretchColumns="*"
     android:padding="16dp">
 
-    <!-- Row 1 -->
+   
     <TableRow>
         <TextView
             android:text="Name"
@@ -18,7 +18,7 @@
             android:padding="8dp" />
     </TableRow>
 
-    <!-- Row 2 -->
+  
     <TableRow>
         <TextView
             android:text="Email"
@@ -29,7 +29,7 @@
             android:padding="8dp" />
     </TableRow>
 
-    <!-- Row 3 -->
+   
     <TableRow>
         <Button
             android:text="Submit"
