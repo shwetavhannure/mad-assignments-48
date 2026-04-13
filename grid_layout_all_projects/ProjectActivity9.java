@@ -23,7 +23,7 @@ public class ProjectActivity9 extends AppCompatActivity {
         button3 = findViewById(R.id.button3);
         button4 = findViewById(R.id.button4);
 
-        // Open Web Browser
+       
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -33,7 +33,7 @@ public class ProjectActivity9 extends AppCompatActivity {
             }
         });
 
-        // Open Google Maps
+        
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -51,7 +51,7 @@ public class ProjectActivity9 extends AppCompatActivity {
             }
         });
 
-        // Open Camera
+        
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -60,7 +60,7 @@ public class ProjectActivity9 extends AppCompatActivity {
             }
         });
 
-        // Make a Call
+     
         button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
