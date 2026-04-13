@@ -9,19 +9,19 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 
 public class ProjectActivity7 extends AppCompatActivity {
 
-    // 🔴 Button 1 - Red Background+
+   
     public void changeRed(View view) {
         ConstraintLayout layout = findViewById(R.id.mainLayout);
         layout.setBackgroundColor(getResources().getColor(android.R.color.holo_red_light));
     }
 
-    // 🔵 Button 2 - Blue Background
+    
     public void changeBlue(View view) {
         ConstraintLayout layout = findViewById(R.id.mainLayout);
         layout.setBackgroundColor(getResources().getColor(android.R.color.holo_blue_light));
     }
 
-    // 🖼 Button 3 - Image Background
+    
     public void changeImage(View view) {
         ConstraintLayout layout = findViewById(R.id.mainLayout);
         layout.setBackgroundResource(R.drawable.bgimage);
