@@ -7,7 +7,7 @@
     android:rowCount="3"
     android:padding="16dp">
 
-    <!-- Title -->
+    
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -18,7 +18,7 @@
         android:layout_columnSpan="2"
         android:layout_marginBottom="20dp"/>
 
-    <!-- Button 1 -->
+   
     <Button
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -26,7 +26,7 @@
         android:layout_columnWeight="1"
         android:layout_margin="8dp"/>
 
-    <!-- Button 2 -->
+   
     <Button
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -34,7 +34,7 @@
         android:layout_columnWeight="1"
         android:layout_margin="8dp"/>
 
-    <!-- Button 3 -->
+    
     <Button
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -42,7 +42,7 @@
         android:layout_columnWeight="1"
         android:layout_margin="8dp"/>
 
-    <!-- Button 4 -->
+   
     <Button
         android:layout_width="0dp"
         android:layout_height="wrap_content"
